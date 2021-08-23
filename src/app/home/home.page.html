@@ -1,0 +1,61 @@
+
+<ion-content [fullscreen]="true" class="Background">
+  <ion-content class="ion-padding">
+
+
+  <div id="container">
+    <!--//project name-->
+    <ion-text >
+    <strong><i><h1>E-Card Creator</h1></i></strong>
+    <!--//the icon or logo-->
+    <img src="../../assets/logo/projectLogo.png" alt="image">
+    <p> <i><strong>اختر نوع البطاقة </strong></i></p>
+    <p> <!--//paragraph
+      //the button of invation and its properties-->
+      <ion-button color="primary" shape="round" size="large" routerLink="/invitation">
+        <ion-icon slot="end" name="mail-outline"></ion-icon>
+        <h2>دعوة</h2>
+      </ion-button>
+      <!--//the button of greating and its properties-->
+      <ion-button color="warning" shape="round" size="large" routerLink="/congratulate">
+        <ion-icon  slot="end" name="heart-circle-outline"></ion-icon>
+        <h2>تهنئة</h2>
+      </ion-button> 
+    </p>  <!--//close paragraph -->
+  </ion-text></div>
+  
+  <!--//setting button--> 
+  <ion-fab horizontal="end" vertical="top" > 
+    <ion-fab-button size="large" color="medium" expand="block" routerLink="/setting" >
+      <ion-icon name="settings-outline"></ion-icon>
+   </ion-fab-button>
+  </ion-fab>
+
+  <!--// the draft button--> 
+  <ion-fab horizontal="Start" vertical="bottom" > 
+    <ion-fab-button size="large" color="danger" expand="block" routerLink="/draft">
+      <ion-icon name="archive"></ion-icon>
+   </ion-fab-button>
+  </ion-fab>
+
+    <!--// about the app button -->
+  <ion-fab horizontal="end" vertical="bottom" > 
+    <ion-fab-button size="large" color="danger" routerLink="/info">
+      <ion-icon name="alert-outline"></ion-icon>
+   </ion-fab-button>
+  </ion-fab>
+
+
+   </ion-content> 
+
+  
+
+
+  </ion-content>
+<!--//footer of the page -->
+<ion-footer>
+  <div class="sign-in-hr">
+<p><span><ion-text  horizontal ="end" vertical="center">
+  ــ فريق متحدين نقف ــ
+</ion-text></span></p></div>
+</ion-footer>

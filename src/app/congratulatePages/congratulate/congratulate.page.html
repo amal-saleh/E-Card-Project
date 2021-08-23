@@ -1,0 +1,66 @@
+<!--تهنئة page-->
+
+<!-- The header contain the back button -->
+<ion-header>
+  <ion-fab horizontal="start" vertical="top" > 
+    <ion-fab-button size="large" color="danger " routerLink="/home" routerDirection="back">
+      <ion-icon name="arrow-undo" ></ion-icon>
+   </ion-fab-button>
+  </ion-fab>
+
+  <div class="ion-text-center">
+    <ion-text color="danger" >
+      <strong><i><h1>ـــــــــــــــــــــــــــــــــــــــــــــــــ</h1></i></strong>
+    </ion-text>
+  </div>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true" class="Background" >
+  <ion-content class="ion-padding">
+
+<div class="ion-text-center">
+    <img src="../../assets/logo/projectLogo.png" alt="image"> 
+  </div> 
+
+  <div id="container">
+    
+    <ion-text>   
+    <p><strong> كيف تفضّل   </strong></p>
+    <ion-text><u><strong> تهنئــتك ؟   </strong></u></ion-text>
+
+    <p> <!--paragraph
+      the button and its properties-->
+      <ion-button color="primary" shape="round" size="large" routerLink="/empty-congratulate">
+        <ion-icon slot="end" name="document"></ion-icon>
+        <!-- Using the empty tamplate to write on it-->
+        <h2>مساحة حرّة </h2>
+      </ion-button>
+
+
+      <!--the button and its properties-->
+      <ion-button color="warning" shape="round" size="large" routerLink="/written-congratulate">
+        <ion-icon  slot="end" name="create"></ion-icon>
+        <h2>مكتوبة</h2>
+      </ion-button> 
+    </p>  <!-- close paragraph -->
+  </ion-text></div>
+  
+   </ion-content> 
+  </ion-content>
+
+
+<!--footer of the page -->
+<ion-footer>
+  <div class="ion-text-center">
+  <ion-text color="danger" >
+    <strong><i><h1>ـــــــــــــــــــــــــــــــــــــــــــــــــ</h1></i></strong>
+  </ion-text>
+</div>
+
+  <div class="sign-in-hr">
+<p><span><ion-text  horizontal ="end" vertical="center">
+  ــ فريق متحدين نقف ــ
+</ion-text></span></p></div>
+</ion-footer>

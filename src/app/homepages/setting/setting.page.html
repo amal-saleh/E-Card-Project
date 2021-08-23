@@ -1,0 +1,86 @@
+<ion-content [fullscreen]="true" class="Background">
+  <ion-header>
+
+
+      <ion-fab horizontal="start" vertical="top" > 
+    
+        <ion-fab-button size="large" color="danger " routerLink="/home" routerDirection="back">
+    
+          <ion-icon name="arrow-undo" ></ion-icon>
+    
+       </ion-fab-button>
+    
+      </ion-fab>
+  
+      <ion-title class="sign-in-hr">
+      <b><h1>
+        ــــــ الإعــدادات ــــــ          
+      </h1></b></ion-title>
+ </ion-header>
+
+
+
+<ion-content >
+  <div id="container">
+    <ion-text>
+    <ion-list>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label> <b>
+          Language:
+        </b></ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label> <b>English</b></ion-label>
+        <ion-radio value="English"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label> <b> Arabic </b></ion-label>
+        <ion-radio value="Arabic"></ion-radio>
+      </ion-item>
+      
+    </ion-radio-group>
+    </ion-list>
+    
+
+
+  <ion-list>
+    <ion-radio-group >
+      <ion-list-header>
+        <ion-label> <b>
+          Theme:
+        </b></ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label> <b> Light </b></ion-label>
+        <ion-radio value="Light"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label> <b> Dark </b></ion-label>
+        <ion-radio value="Dark"></ion-radio>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label> <b> System default </b></ion-label>
+        <ion-radio value=" System default"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+</ion-text>
+</div>
+
+
+<!---نضيف لهذا الزر أمر بحيث يحفظ لي التغييرات إللي يتم إضافتها على الإعدادات-->
+<div >
+<ion-fab horizontal="center" vertical="bottom">
+<ion-button shape="round" routerLink="/home" routerDirection="back" color="danger"  >
+حفظ التغييرات
+</ion-button>
+</ion-fab>
+</div>
+
+</ion-content>
