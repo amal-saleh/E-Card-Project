@@ -7,13 +7,13 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-    apiKey: "AIzaSyDfzhtBcICip-OBO_MUmS61srZhYnD8rkk",
-  authDomain: "e-card-creator-4c23b.firebaseapp.com",
-  projectId: "e-card-creator-4c23b",
-  storageBucket: "e-card-creator-4c23b.appspot.com",
-  messagingSenderId: "1042149056959",
-  appId: "1:1042149056959:web:d2cbcdbf938401e440010a",
-  measurementId: "G-NL1YL0ZFRV"
+      apiKey: "AIzaSyBn6PSs-grLloLvTqn3R4MsfLN535M4wOU",
+      authDomain: "e-card-creator.firebaseapp.com",
+      projectId: "e-card-creator",
+      storageBucket: "e-card-creator.appspot.com",
+      messagingSenderId: "610815746444",
+      appId: "1:610815746444:web:6edfc71ebfe7be4aa2b6a9",
+      measurementId: "G-QYB9F91DSF"
   }
 };
 
