@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "e-card-creator": {
+      "hosting": {
+        "app": [
+          "e-card-creator"
+        ]
+      }
+    }
+  }
+}
